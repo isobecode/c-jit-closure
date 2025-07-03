@@ -1,0 +1,37 @@
+# Compiled output files
+*.o
+*.out
+*.exe
+*.so
+*.a
+*.dylib
+*.dll
+
+# Executable
+jit_closure
+trampoline_function
+
+# Build directories
+build/
+bin/
+obj/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+deps/
+vendor/
+
+# Log and temporary files
+*.log
+*.tmp
+*.temp
