@@ -8,7 +8,7 @@
 
 #pragma clang assume_nonnull begin
 
-static long PAGE_SIZE =;
+static long PAGE_SIZE = 0;
 static void *apply(void *fn, void *arg)
 {
     if (PAGE_SIZE == 0)
